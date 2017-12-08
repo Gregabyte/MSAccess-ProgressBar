@@ -1,4 +1,12 @@
-Attribute VB_Name = "mod_ProgressBar"
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+END
+Attribute VB_Name = "clsProgressBar"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
@@ -79,7 +87,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Initialize", Erl
+            LogErr Err, "clsProgressBar", "Initialize", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -100,7 +108,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Class_Terminate", Erl
+            LogErr Err, "clsProgressBar", "Class_Terminate", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -118,7 +126,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Max", Erl
+            LogErr Err, "clsProgressBar", "Max", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -136,7 +144,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Max", Erl
+            LogErr Err, "clsProgressBar", "Max", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -154,7 +162,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Value", Erl
+            LogErr Err, "clsProgressBar", "Value", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -178,7 +186,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Value", Erl
+            LogErr Err, "clsProgressBar", "Value", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -196,7 +204,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "IncrementSize", Erl
+            LogErr Err, "clsProgressBar", "IncrementSize", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -214,7 +222,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "IncrementSize", Erl
+            LogErr Err, "clsProgressBar", "IncrementSize", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -232,7 +240,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "HideCaption", Erl
+            LogErr Err, "clsProgressBar", "HideCaption", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -250,7 +258,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "HideCaption", Erl
+            LogErr Err, "clsProgressBar", "HideCaption", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -292,7 +300,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Update", Erl
+            LogErr Err, "clsProgressBar", "Update", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -315,7 +323,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Increment", Erl
+            LogErr Err, "clsProgressBar", "Increment", Erl
             Resume Next ' Resume at next line.
     End Select
 
@@ -333,7 +341,7 @@ ErrHandler:
 
     Select Case Err.Number
         Case Else
-            LogErr Err, "clsLblProg", "Clear", Erl
+            LogErr Err, "clsProgressBar", "Clear", Erl
             Resume Next ' Resume at next line.
     End Select
 

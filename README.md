@@ -11,10 +11,10 @@ Installing the Custom Scripts
 
 For the purposes of these instructions, assume your database is called `C:\Temp\myDb.accdb`.
 
-1. Load `mod_ProgressBar.bas` into a new module in your database with that exact name.
+1. Load `clsProgressBar.cls` into a new module in your database with that exact name.
  1. Go to the VBA editor (CTRL-G) and select "File" > "Import File..."
     (or you can just drag and drop the file from windows explorer into the vba editor module list).
- 2. Select the `mod_ProgressBar.bas` file.
+ 2. Select the `clsProgressBar.cls` file.
  3. Save the file (CTRL-S).
 
 Usage
